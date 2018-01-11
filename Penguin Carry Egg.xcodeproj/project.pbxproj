@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9B27789200703E8001A71C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B27788200703E8001A71C9 /* AppDelegate.m */; };
+		E9B2778C200703E8001A71C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B2778B200703E8001A71C9 /* ViewController.m */; };
+		E9B2778F200703E8001A71C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B2778D200703E8001A71C9 /* Main.storyboard */; };
+		E9B27791200703E8001A71C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B27790200703E8001A71C9 /* Assets.xcassets */; };
+		E9B27794200703E8001A71C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B27792200703E8001A71C9 /* LaunchScreen.storyboard */; };
+		E9B27797200703E8001A71C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B27796200703E8001A71C9 /* main.m */; };
+		E9B277A1200703E8001A71C9 /* Penguin_Carry_EggTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B277A0200703E8001A71C9 /* Penguin_Carry_EggTests.m */; };
+		E9B277AC200703E8001A71C9 /* Penguin_Carry_EggUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B277AB200703E8001A71C9 /* Penguin_Carry_EggUITests.m */; };
+		E9B278402007068C001A71C9 /* gameVc.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B2783E2007068C001A71C9 /* gameVc.m */; };
+		E9B2784E20071838001A71C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9B2785020071838001A71C9 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9B2779D200703E8001A71C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B2777C200703E7001A71C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B27783200703E7001A71C9;
+			remoteInfo = "Penguin Carry Egg";
+		};
+		E9B277A8200703E8001A71C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9B2777C200703E7001A71C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9B27783200703E7001A71C9;
+			remoteInfo = "Penguin Carry Egg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9B27784200703E7001A71C9 /* Penguin Carry Egg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penguin Carry Egg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B27787200703E8001A71C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9B27788200703E8001A71C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9B2778A200703E8001A71C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9B2778B200703E8001A71C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9B2778E200703E8001A71C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9B27790200703E8001A71C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9B27793200703E8001A71C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9B27795200703E8001A71C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B27796200703E8001A71C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9B2779C200703E8001A71C9 /* Penguin Carry EggTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penguin Carry EggTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B277A0200703E8001A71C9 /* Penguin_Carry_EggTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Penguin_Carry_EggTests.m; sourceTree = "<group>"; };
+		E9B277A2200703E8001A71C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B277A7200703E8001A71C9 /* Penguin Carry EggUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penguin Carry EggUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9B277AB200703E8001A71C9 /* Penguin_Carry_EggUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Penguin_Carry_EggUITests.m; sourceTree = "<group>"; };
+		E9B277AD200703E8001A71C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B277B920070552001A71C9 /* Penguin Carry Egg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Penguin Carry Egg.entitlements"; sourceTree = "<group>"; };
+		E9B2783D2007068C001A71C9 /* gameVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gameVc.h; sourceTree = "<group>"; };
+		E9B2783E2007068C001A71C9 /* gameVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gameVc.m; sourceTree = "<group>"; };
+		E9B2784A20071825001A71C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		E9B2784B20071825001A71C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E9B2784F20071838001A71C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9B278512007183A001A71C9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9B27781200703E7001A71C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B27799200703E8001A71C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B277A4200703E8001A71C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9B2777B200703E7001A71C9 = {
+			isa = PBXGroup;
+			children = (
+				E9B27786200703E7001A71C9 /* Penguin Carry Egg */,
+				E9B2779F200703E8001A71C9 /* Penguin Carry EggTests */,
+				E9B277AA200703E8001A71C9 /* Penguin Carry EggUITests */,
+				E9B27785200703E7001A71C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9B27785200703E7001A71C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B27784200703E7001A71C9 /* Penguin Carry Egg.app */,
+				E9B2779C200703E8001A71C9 /* Penguin Carry EggTests.xctest */,
+				E9B277A7200703E8001A71C9 /* Penguin Carry EggUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9B27786200703E7001A71C9 /* Penguin Carry Egg */ = {
+			isa = PBXGroup;
+			children = (
+				E9B277BC2007063B001A71C9 /* games */,
+				E9B277B920070552001A71C9 /* Penguin Carry Egg.entitlements */,
+				E9B27787200703E8001A71C9 /* AppDelegate.h */,
+				E9B27788200703E8001A71C9 /* AppDelegate.m */,
+				E9B2778A200703E8001A71C9 /* ViewController.h */,
+				E9B2778B200703E8001A71C9 /* ViewController.m */,
+				E9B2778D200703E8001A71C9 /* Main.storyboard */,
+				E9B27790200703E8001A71C9 /* Assets.xcassets */,
+				E9B27792200703E8001A71C9 /* LaunchScreen.storyboard */,
+				E9B27795200703E8001A71C9 /* Info.plist */,
+				E9B27796200703E8001A71C9 /* main.m */,
+				E9B2785020071838001A71C9 /* InfoPlist.strings */,
+			);
+			path = "Penguin Carry Egg";
+			sourceTree = "<group>";
+		};
+		E9B2779F200703E8001A71C9 /* Penguin Carry EggTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B277A0200703E8001A71C9 /* Penguin_Carry_EggTests.m */,
+				E9B277A2200703E8001A71C9 /* Info.plist */,
+			);
+			path = "Penguin Carry EggTests";
+			sourceTree = "<group>";
+		};
+		E9B277AA200703E8001A71C9 /* Penguin Carry EggUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9B277AB200703E8001A71C9 /* Penguin_Carry_EggUITests.m */,
+				E9B277AD200703E8001A71C9 /* Info.plist */,
+			);
+			path = "Penguin Carry EggUITests";
+			sourceTree = "<group>";
+		};
+		E9B277BC2007063B001A71C9 /* games */ = {
+			isa = PBXGroup;
+			children = (
+				E9B2783D2007068C001A71C9 /* gameVc.h */,
+				E9B2783E2007068C001A71C9 /* gameVc.m */,
+			);
+			path = games;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9B27783200703E7001A71C9 /* Penguin Carry Egg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B277B0200703E8001A71C9 /* Build configuration list for PBXNativeTarget "Penguin Carry Egg" */;
+			buildPhases = (
+				E9B27780200703E7001A71C9 /* Sources */,
+				E9B27781200703E7001A71C9 /* Frameworks */,
+				E9B27782200703E7001A71C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penguin Carry Egg";
+			productName = "Penguin Carry Egg";
+			productReference = E9B27784200703E7001A71C9 /* Penguin Carry Egg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9B2779B200703E8001A71C9 /* Penguin Carry EggTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B277B3200703E8001A71C9 /* Build configuration list for PBXNativeTarget "Penguin Carry EggTests" */;
+			buildPhases = (
+				E9B27798200703E8001A71C9 /* Sources */,
+				E9B27799200703E8001A71C9 /* Frameworks */,
+				E9B2779A200703E8001A71C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B2779E200703E8001A71C9 /* PBXTargetDependency */,
+			);
+			name = "Penguin Carry EggTests";
+			productName = "Penguin Carry EggTests";
+			productReference = E9B2779C200703E8001A71C9 /* Penguin Carry EggTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9B277A6200703E8001A71C9 /* Penguin Carry EggUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9B277B6200703E8001A71C9 /* Build configuration list for PBXNativeTarget "Penguin Carry EggUITests" */;
+			buildPhases = (
+				E9B277A3200703E8001A71C9 /* Sources */,
+				E9B277A4200703E8001A71C9 /* Frameworks */,
+				E9B277A5200703E8001A71C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9B277A9200703E8001A71C9 /* PBXTargetDependency */,
+			);
+			name = "Penguin Carry EggUITests";
+			productName = "Penguin Carry EggUITests";
+			productReference = E9B277A7200703E8001A71C9 /* Penguin Carry EggUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9B2777C200703E7001A71C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Xue;
+				TargetAttributes = {
+					E9B27783200703E7001A71C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					E9B2779B200703E8001A71C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9B27783200703E7001A71C9;
+					};
+					E9B277A6200703E8001A71C9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9B27783200703E7001A71C9;
+					};
+				};
+			};
+			buildConfigurationList = E9B2777F200703E7001A71C9 /* Build configuration list for PBXProject "Penguin Carry Egg" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = E9B2777B200703E7001A71C9;
+			productRefGroup = E9B27785200703E7001A71C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B27783200703E7001A71C9 /* Penguin Carry Egg */,
+				E9B2779B200703E8001A71C9 /* Penguin Carry EggTests */,
+				E9B277A6200703E8001A71C9 /* Penguin Carry EggUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9B27782200703E7001A71C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B27794200703E8001A71C9 /* LaunchScreen.storyboard in Resources */,
+				E9B2784E20071838001A71C9 /* InfoPlist.strings in Resources */,
+				E9B27791200703E8001A71C9 /* Assets.xcassets in Resources */,
+				E9B2778F200703E8001A71C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B2779A200703E8001A71C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B277A5200703E8001A71C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9B27780200703E7001A71C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B2778C200703E8001A71C9 /* ViewController.m in Sources */,
+				E9B27797200703E8001A71C9 /* main.m in Sources */,
+				E9B27789200703E8001A71C9 /* AppDelegate.m in Sources */,
+				E9B278402007068C001A71C9 /* gameVc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B27798200703E8001A71C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B277A1200703E8001A71C9 /* Penguin_Carry_EggTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B277A3200703E8001A71C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B277AC200703E8001A71C9 /* Penguin_Carry_EggUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9B2779E200703E8001A71C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B27783200703E7001A71C9 /* Penguin Carry Egg */;
+			targetProxy = E9B2779D200703E8001A71C9 /* PBXContainerItemProxy */;
+		};
+		E9B277A9200703E8001A71C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9B27783200703E7001A71C9 /* Penguin Carry Egg */;
+			targetProxy = E9B277A8200703E8001A71C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9B2778D200703E8001A71C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B2778E200703E8001A71C9 /* Base */,
+				E9B2784A20071825001A71C9 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9B27792200703E8001A71C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B27793200703E8001A71C9 /* Base */,
+				E9B2784B20071825001A71C9 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E9B2785020071838001A71C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9B2784F20071838001A71C9 /* en */,
+				E9B278512007183A001A71C9 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9B277AE200703E8001A71C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9B277AF200703E8001A71C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9B277B1200703E8001A71C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Penguin Carry Egg/Penguin Carry Egg.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xun Xue (YJ5MD42XCW)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YJ5MD42XCW;
+				INFOPLIST_FILE = "Penguin Carry Egg/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PenguinCarry.Egg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "240db801-0154-42a5-8611-34c1399031e2";
+				PROVISIONING_PROFILE_SPECIFIER = PenguinCarryEggPro;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9B277B2200703E8001A71C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Penguin Carry Egg/Penguin Carry Egg.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xun Xue (YJ5MD42XCW)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YJ5MD42XCW;
+				INFOPLIST_FILE = "Penguin Carry Egg/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PenguinCarry.Egg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "240db801-0154-42a5-8611-34c1399031e2";
+				PROVISIONING_PROFILE_SPECIFIER = PenguinCarryEggPro;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9B277B4200703E8001A71C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penguin Carry EggTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PenguinCarry.Egg.Penguin-Carry-EggTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penguin Carry Egg.app/Penguin Carry Egg";
+			};
+			name = Debug;
+		};
+		E9B277B5200703E8001A71C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penguin Carry EggTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PenguinCarry.Egg.Penguin-Carry-EggTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penguin Carry Egg.app/Penguin Carry Egg";
+			};
+			name = Release;
+		};
+		E9B277B7200703E8001A71C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penguin Carry EggUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PenguinCarry.Egg.Penguin-Carry-EggUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penguin Carry Egg";
+			};
+			name = Debug;
+		};
+		E9B277B8200703E8001A71C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penguin Carry EggUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PenguinCarry.Egg.Penguin-Carry-EggUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penguin Carry Egg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9B2777F200703E7001A71C9 /* Build configuration list for PBXProject "Penguin Carry Egg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B277AE200703E8001A71C9 /* Debug */,
+				E9B277AF200703E8001A71C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B277B0200703E8001A71C9 /* Build configuration list for PBXNativeTarget "Penguin Carry Egg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B277B1200703E8001A71C9 /* Debug */,
+				E9B277B2200703E8001A71C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B277B3200703E8001A71C9 /* Build configuration list for PBXNativeTarget "Penguin Carry EggTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B277B4200703E8001A71C9 /* Debug */,
+				E9B277B5200703E8001A71C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9B277B6200703E8001A71C9 /* Build configuration list for PBXNativeTarget "Penguin Carry EggUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B277B7200703E8001A71C9 /* Debug */,
+				E9B277B8200703E8001A71C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9B2777C200703E7001A71C9 /* Project object */;
+}
