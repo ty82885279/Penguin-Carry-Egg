@@ -6,3 +6,7 @@ Players need to control Penguin to move the penguin eggs，carry the penguin egg
 ![](https://github.com/ty82885279/Penguin-Carry-Egg/blob/master/Penguin%20Carry%20Egg/04.png)
 
 [Framework](https://github.com/qianqians/abelkhan#%E6%96%87%E6%A1%A3)
+
+Dbproxy database agent
+Gate gateway server
+Hub micro service node
